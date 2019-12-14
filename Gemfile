@@ -28,7 +28,7 @@ gem 'bootsnap', '>= 1.4.2', require: false
 group :test do
   gem 'factory_bot_rails', '~> 5.1', '>= 5.1.1'
   gem 'shoulda-matchers', '~> 4.1', '>= 4.1.2'
-  gem 'faker', '~> 2.8', '>= 2.8.1'
+  gem 'faker', git: 'https://github.com/stympy/faker'
   gem 'database_cleaner', '~> 1.7'
 end
 
