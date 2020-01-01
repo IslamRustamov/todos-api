@@ -10,6 +10,7 @@ gem 'sqlite3', '~> 1.4'
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
 gem 'active_model_serializers', '~> 0.10.10'
+gem 'will_paginate', '~> 3.2', '>= 3.2.1'
 gem 'bcrypt', '~> 3.1', '>= 3.1.13'
 gem 'jwt', '~> 2.2', '>= 2.2.1'
 # Reduces boot times through caching; required in config/boot.rb
